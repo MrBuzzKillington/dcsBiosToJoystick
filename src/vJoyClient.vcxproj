@@ -274,11 +274,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DcsBiosReader.cpp" />
     <ClCompile Include="dcsbiosToJoystick.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\inc\public.h" />
     <ClInclude Include="..\inc\vjoyinterface.h" />
+    <ClInclude Include="DcsBiosReader.hpp" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

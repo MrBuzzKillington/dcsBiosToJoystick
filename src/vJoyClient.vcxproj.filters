@@ -18,15 +18,18 @@
     <ClCompile Include="dcsbiosToJoystick.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DcsBiosReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\inc\public.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\inc\vjoyinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DcsBiosReader.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
